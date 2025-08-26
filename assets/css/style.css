@@ -615,11 +615,25 @@ ul.list-unstyled li a:hover {
 
 .inner-bnr {
     margin-top: 73px;
-    background: #be3319;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    z-index: 1;
+}
+
+.inner-bnr::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000063;
+    z-index: -1;
 }
 
 .inner-bnr-content {
@@ -995,4 +1009,8 @@ ul.list-unstyled li a:hover {
 
 .most-recent-draw .recent-draw-inner .row .col-lg-4:not(:last-child) {
     margin-bottom: 30px;
+}
+
+.contact-page {
+    background: url(../images/contact_banner.jpg);
 }
