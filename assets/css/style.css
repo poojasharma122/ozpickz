@@ -944,3 +944,55 @@ ul.list-unstyled li a:hover {
 .responsible-inner .row {
     align-items: center;
 }
+
+/* results page css */
+.oz-pickz-results-inner .row {
+    align-items: center;
+}
+
+.pickz-results-img img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.oz-pickz-results {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.pickz-results-content h3 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pickz-results-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.most-recent-draw {
+    padding: 60px 0;
+}
+
+.recent-draw-next .pickz-draw-inner {
+    margin: 0;
+}
+
+.most-recent-draw h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.prize-highlights .row .col-lg-4.col-md-6:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.most-recent-draw .recent-draw-inner .row .col-lg-4:not(:last-child) {
+    margin-bottom: 30px;
+}
