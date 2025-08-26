@@ -1165,3 +1165,20 @@ fieldset {
     font-size: 18px;
     line-height: 30px;
 }
+
+.bg_center_cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.after_banner_img {
+    height: 100%;
+    width: 100%;
+}
+.after_banner_img_outer {
+    height: 25rem;
+    width: 100%;
+}
+.aboutus-section{
+    padding: 60px 0;
+}
