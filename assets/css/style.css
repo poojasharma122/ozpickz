@@ -1145,6 +1145,11 @@ fieldset {
     background: url(../images/play-lottery-banner.jpg);
 }
 
+.results-page {
+    background: url(../images/results-bnr.jpg);
+
+}
+
 .disclaimer-main {
     padding: 60px 0;
 }
