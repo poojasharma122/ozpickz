@@ -36,6 +36,11 @@ header {
     width: 100%;
 }
 
+.logo img {
+    max-width: 150px;
+    width: 100%;
+}
+
 header.is-sticky {
     position: fixed;
     top: 0;
@@ -469,7 +474,6 @@ span.menu-close {
 .newsletter-section {
     background-color: #ffd265;
     padding: 60px 0;
-    margin-bottom: 120px;
 }
 
 .newsletter-content {
@@ -1106,4 +1110,53 @@ fieldset {
 .contact-us-wrapper {
     background: #fff;
     padding: 60px 0;
+}
+
+.contact_top_card_box {
+    padding: 60px 0;
+}
+
+.contact_top_cards_content h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact_top_cards_content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.contact_top_cards_content a {
+    color: #be3319;
+}
+
+.footer-content img {
+    max-width: 150px;
+    width: 100%;
+}
+
+.about-page {
+    background: url(../images/about-banner.jpg);
+}
+
+.how-to-play {
+    background: url(../images/play-lottery-banner.jpg);
+}
+
+.disclaimer-main {
+    padding: 60px 0;
+}
+
+.disclaimer-box h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.disclaimer-box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
 }
