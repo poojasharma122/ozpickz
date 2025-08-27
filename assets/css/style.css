@@ -490,7 +490,7 @@ span.menu-close {
 .newsletter-content h2 {
     font-size: 34px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .newsletter-content p {
@@ -1171,14 +1171,212 @@ fieldset {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .after_banner_img {
     height: 100%;
     width: 100%;
 }
+
 .after_banner_img_outer {
     height: 25rem;
     width: 100%;
 }
-.aboutus-section{
+
+.aboutus-section {
     padding: 60px 0;
+}
+
+.about-text {
+    padding: 0 2.1875rem;
+}
+
+.about-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.why-choose {
+    padding: 60px 0;
+}
+
+.about-text h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.choose-content h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.choose-content ul li {
+    padding-left: 25px;
+    position: relative;
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 12px;
+}
+
+.choose-content ul li::before {
+    content: "✓";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+.choose-img img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.why-choose-inner .row {
+    align-items: center;
+}
+
+.our-difference {
+    margin-top: 50px;
+}
+
+.our-difference .row {
+    align-items: center;
+}
+
+.readers-inner h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.jackpots-page {
+    background: url(../images/jackpot-banner.jpg);
+}
+
+.promotions {
+    background: #fff;
+    padding: 60px 0px;
+}
+
+.promotions .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.promotions .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.promotions .section-intro {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.promo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.promo-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.promo-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.promo-card h3 {
+    font-size: 1.3rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.promo-card p {
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.5;
+}
+
+.jackpots-draw {
+    padding: 60px 0;
+}
+
+.record-jackpots {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.record-jackpots .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.jackpot-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+    text-align: left;
+}
+
+.jackpot-list li {
+    font-size: 1.1rem;
+    margin: 15px 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.jackpot-list .amount {
+    font-weight: 700;
+    color: #e63946;
+    font-size: 1.2rem;
+}
+
+.highlight-text {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #333;
+    background: #fff3cd;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: inline-block;
 }
