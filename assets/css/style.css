@@ -556,6 +556,9 @@ span.menu-close {
 .footer {
     background: url(../images/footer-bg.png);
     padding: 120px 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 ul.list-unstyled li a {
