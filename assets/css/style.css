@@ -1403,3 +1403,310 @@ fieldset {
     border-radius: 8px;
     display: inline-block;
 }
+
+
+/* df bkfgmn */
+.home_what_we_offer_card.blog_page_card::before {
+    background: #fff;
+}
+
+.blog_page_card {
+    display: block;
+}
+
+.blog_page_card .what_we_offer_img_outer {
+    height: 25rem;
+}
+
+.home_what_we_offer_card .what_we_offer_content h5 {
+    color: #000;
+}
+
+.home_what_we_offer_card:hover .what_we_offer_content h5 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.home_what_we_offer_card:hover {
+    transform: translateY(-3px);
+}
+
+.home_what_we_offer_card {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.1s all linear;
+}
+
+.what_we_offer_img_outer {
+    height: 21.875rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.875rem;
+}
+
+.what_we_offer_img {
+    height: 100%;
+    width: 100%;
+}
+
+.bg_center_cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.what_we_offer_content {
+    padding: 1.25rem 0;
+}
+
+.home_what_we_offer_card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    border-radius: 1.875rem;
+}
+
+
+.home_what_we_offer_card::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #adff00;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s ease;
+    border-radius: 1.875rem;
+}
+
+
+
+.sport-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+
+
+.blog_why_us .service-item h4 {
+    font-size: 1.1rem;
+}
+
+.sport-card {
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: left;
+    position: relative;
+    transition: all 0.3s ease;
+    padding-bottom: 20px;
+    box-shadow: #ffd265 0rem 0.1875rem 0.5rem;
+}
+
+
+.sport-card img {
+    width: 100%;
+    height: 18.75rem;
+    object-fit: cover;
+    display: block;
+}
+
+
+.sport-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 15px 15px 10px;
+    color: #fff;
+}
+
+.sport-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #bbb;
+    margin: 0 15px;
+}
+
+
+.sport-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: #ffd265;
+    transition: width 0.4s ease;
+}
+
+.sport-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0%;
+    width: 4px;
+    background: #ffd265;
+    transition: height 0.4s ease;
+}
+
+.sport-card:hover::before {
+    width: 100%;
+}
+
+.sport-card:hover::after {
+    height: 100%;
+}
+
+.bg_white {
+    background-color: #fff;
+}
+
+
+.service-item {
+    text-align: center;
+    padding: 1.875rem 2.1875rem 1.125rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: #ffd265 0rem 0.1875rem 0.5rem;
+    margin-bottom: 1.875rem;
+    border-radius: 1.875rem;
+    height: 100%;
+    background-color: #fff;
+}
+
+.service-item:hover {
+    transform: translateY(-4px);
+}
+
+
+
+.service-item h4 {
+    color: #000;
+    font-size: 1.375rem;
+    margin-top: 0.625rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.service_icon {
+    width: 100%;
+}
+
+.service-item p {
+    color: #000;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.service_icons {
+    height: 4rem;
+    margin-bottom: 1.25rem;
+}
+
+.bg_center_contain {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Home Why US CSS Start */
+
+
+/* Blog Description CSS Start */
+
+.blog_description_section {
+    margin-top: 5rem;
+}
+
+.blog_description_wrap {
+    max-width: 75rem;
+}
+
+.block_image_wrap {
+    height: 31.25rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 1.875rem;
+    overflow: hidden;
+}
+
+.block_image_outer {
+    height: 100%;
+}
+
+.block_image {
+    height: 100%;
+    width: 100%;
+}
+
+.blog_image_txt {
+    padding: 0.9375rem 1.875rem;
+    width: 100%;
+    background-color: #be3319;
+    text-align: center;
+    background-blend-mode: multiply;
+    overflow: hidden;
+}
+
+.blog_image_txt h1 {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+.blog_image_txt h1::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0.125rem;
+    display: block;
+    margin-top: 0.3125rem;
+    background: #fff;
+    transition: width 0.3s ease-in-out;
+    left: 0;
+    bottom: -0.5rem;
+}
+
+.block_image_wrap:hover .blog_image_txt h1::after {
+    width: 100%;
+}
+
+.blog_desc_grps p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.blog_desc_grps h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.blog_desc_grps ul li {
+    margin-left: 2.25rem;
+    list-style-type: disc;
+}
+
+.blog_desc_grps ul li::marker {
+    color: #dfa974;
+}
+
+/* Blog Description CSS End */
