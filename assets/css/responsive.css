@@ -128,6 +128,10 @@
         font-size: 24px;
         margin-bottom: 20px;
     }
+
+    .pickz-results-content h3 {
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 1023px) {}
