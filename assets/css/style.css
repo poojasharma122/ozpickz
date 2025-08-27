@@ -183,7 +183,7 @@ span.menu-close {
 }
 
 .gift-box {
-    /* animation: run 4s ease-in-out infinite; */
+    animation: run 4s ease-in-out infinite;
     position: absolute;
     right: 0;
     top: 10%;
@@ -295,6 +295,11 @@ span.menu-close {
     border-radius: 30px;
     height: 100%;
     margin: 0 auto;
+    transition: all 0.3s;
+}
+
+.draw-info-wrapper:hover {
+    transform: translateY(-6px);
 }
 
 .numbers-box {
@@ -340,6 +345,11 @@ span.menu-close {
     padding: 30px;
     border-radius: 30px;
     height: 100%;
+    transition: all 0.3s;
+}
+
+.prize-card:hover {
+    transform: translateY(-6px);
 }
 
 .prize-highlights .row .col-lg-6 {
@@ -526,6 +536,7 @@ span.menu-close {
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 
 .newsletter-form input {
