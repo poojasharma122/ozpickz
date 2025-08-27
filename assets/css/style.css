@@ -310,6 +310,7 @@ span.menu-close {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 20px;
 }
 
 .numbers-box .number a {
@@ -1696,3 +1697,7 @@ fieldset {
 }
 
 /* Blog Description CSS End */
+
+.pickz-draw-inner .row {
+    align-items: center;
+}
