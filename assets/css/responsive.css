@@ -23,6 +23,14 @@
         height: 300px;
     }
 
+    .disclaimer-main {
+        padding: 40px 0;
+    }
+
+    .how-to-play-dis {
+        padding: 40px 0 0;
+    }
+
     .sport-grid {
 
         grid-template-columns: repeat(2, 1fr);
@@ -48,6 +56,21 @@
         bottom: 160px;
     }
 
+    .readers {
+        padding: 40px 0;
+
+    }
+
+    .contact_top_cards_content p {
+
+        font-size: 16px;
+
+    }
+
+    .contact_top_cards_sec {
+        padding: 40px 0;
+    }
+
     .hero-bg-inner {
         padding-top: 190px;
     }
@@ -65,7 +88,7 @@
         padding: 40px 0;
     }
 
- 
+
     ul.list-unstyled li a {
         font-size: 16px;
     }
@@ -77,6 +100,29 @@
     .pickz-works-inner p {
         font-size: 16px;
         line-height: 28px;
+    }
+
+    .readers p {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+
+    }
+
+    .record-jackpots {
+        padding: 60px 0px;
+
+    }
+
+    .how-to-play-text h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
     }
 }
 
@@ -97,6 +143,14 @@
         z-index: 9999;
         padding-top: 60px;
         max-width: 300px;
+    }
+
+    footer.footer {
+        padding: 70px 0 0 0;
+    }
+
+    .form-container {
+        padding: 0;
     }
 
     .hero-bg-inner {
@@ -183,6 +237,13 @@
 @media (max-width: 767px) {
     .home_content h1 {
         font-size: 2.2rem;
+    }
+
+    .how-to-play-img img {
+        height: 300px;
+        object-fit: contain;
+        width: 100%;
+        margin-top: 10px;
     }
 
     html {
