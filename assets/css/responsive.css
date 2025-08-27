@@ -8,6 +8,14 @@
     .bnr-contnet p {
         max-width: 700px;
     }
+
+    .menu-list ul li a {
+        font-size: 15px;
+    }
+
+    .menu-list ul {
+        gap: 20px;
+    }
 }
 
 @media (max-width: 1199px) {
