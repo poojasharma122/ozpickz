@@ -36,12 +36,12 @@ header {
     z-index: 1000;
     transition: all 0.3s ease;
     background-color: #ffd265;
-    padding: 24px 32px;
+    padding: 1.5rem 2rem;
     width: 100%;
 }
 
 .logo img {
-    max-width: 150px;
+    max-width: 9.375rem;
     width: 100%;
 }
 
@@ -76,8 +76,7 @@ header.is-sticky {
 .menu-list ul {
     display: flex;
     list-style: none;
-    gap: 30px;
-
+    gap: 1.875rem;
 }
 
 .menu-list ul li {
@@ -86,7 +85,7 @@ header.is-sticky {
 
 .menu-list ul li a {
     color: #000;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     transition: all 0.3s linear;
 }
@@ -133,21 +132,19 @@ span.menu-close {
 /* header end here   */
 /*  */
 .hero-sec {
-    background: url(../images/banner.png)no-repeat center;
+    background: url(../images/banner.png) no-repeat center;
     background-size: cover;
     position: relative;
-    height: 894px;
-
+    height: 55.875rem;
 }
 
 .hero-bg-inner {
-    background: url(../images/second-bg.png)no-repeat center;
-    padding-top: 200px;
+    background: url(../images/second-bg.png) no-repeat center;
+    padding-top: 12.5rem;
     background-size: cover;
     height: 100%;
     z-index: 2;
     position: relative;
-
 }
 
 .star-img {
@@ -157,7 +154,7 @@ span.menu-close {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    max-width: 772px;
+    max-width: 48.25rem;
 }
 
 /* @keyframes spin {
@@ -1726,9 +1723,11 @@ fieldset {
     background: #000;
     transition: height 0.4s ease;
 }
+
 .form-container {
     padding: 0 2rem;
 }
+
 .prize-highlights h2 {
     font-size: 34px;
     font-weight: 600;
