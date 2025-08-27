@@ -1027,7 +1027,7 @@ ul.list-unstyled li a:hover {
     margin-bottom: 30px;
 }
 
-.most-recent-draw .recent-draw-inner .row .col-lg-4:not(:last-child) {
+.most-recent-draw .recent-draw-inner .row .col-lg-4 {
     margin-bottom: 30px;
 }
 

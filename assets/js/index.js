@@ -56,3 +56,7 @@ startCountdown();
 
 
 
+
+AOS.init({
+    duration: 1200,
+})

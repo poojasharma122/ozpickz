@@ -11,6 +11,15 @@
 }
 
 @media (max-width: 1199px) {
+    .inner-bnr {
+        height: 300px;
+    }
+
+    .contact_top_cards_content h2 {
+        font-size: 24px;
+
+    }
+
     .bnr-contnet h1 {
         font-size: 36px;
     }
