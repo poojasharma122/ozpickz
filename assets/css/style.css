@@ -1729,3 +1729,9 @@ fieldset {
 .form-container {
     padding: 0 2rem;
 }
+.prize-highlights h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+}
