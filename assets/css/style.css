@@ -1726,3 +1726,6 @@ fieldset {
     background: #000;
     transition: height 0.4s ease;
 }
+.form-container {
+    padding: 0 2rem;
+}
