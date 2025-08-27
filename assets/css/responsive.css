@@ -46,6 +46,14 @@
     .responsible {
         padding: 40px 0;
     }
+
+    .footer {
+        padding: 0;
+    }
+
+    ul.list-unstyled li a {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 1023px) {}
@@ -182,6 +190,10 @@
 
     .banner_section {
         height: 25.75rem;
+    }
+
+    .bottom-ft {
+        flex-direction: column;
     }
 }
 
