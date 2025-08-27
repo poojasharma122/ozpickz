@@ -23,6 +23,16 @@
         height: 300px;
     }
 
+    .sport-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .blog_page_card .what_we_offer_img_outer {
+        height: 16rem;
+    }
+
     .contact_top_cards_content h2 {
         font-size: 24px;
 
@@ -159,11 +169,25 @@
     .gift-box {
         display: none;
     }
+
+    .blog_page_cards_sec .row .col-sm-6.col-lg-4 {
+        margin-bottom: 10px !important;
+    }
 }
 
 @media (max-width: 767px) {
     .home_content h1 {
         font-size: 2.2rem;
+    }
+
+    .sport-grid {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .pickz-results-content {
+        margin-top: 30px;
     }
 
     .banner_section {
