@@ -173,11 +173,27 @@
     .blog_page_cards_sec .row .col-sm-6.col-lg-4 {
         margin-bottom: 10px !important;
     }
+
+    html {
+        font-size: 15px;
+    }
+
+    .blog_image_txt h1 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 767px) {
     .home_content h1 {
         font-size: 2.2rem;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    .blog_image_txt h1 {
+        font-size: 1.3rem;
     }
 
     .sport-grid {
@@ -214,6 +230,13 @@
 
 
 @media (max-width:575px) {
+    .blog_image_txt {
+        padding: 0.9375rem;
+    }
+
+    .block_image_wrap {
+        height: 25.25rem;
+    }
 
     .footer-pages-content-grp h3 {
         font-size: 1.5rem;
@@ -248,5 +271,9 @@
 
     .banner_section {
         height: 22.75rem;
+    }
+
+    .blog_image_txt h1 {
+        font-size: 1.1rem;
     }
 }
