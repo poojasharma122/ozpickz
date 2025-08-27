@@ -1701,3 +1701,9 @@ fieldset {
 .pickz-draw-inner .row {
     align-items: center;
 }
+.pickz-works-inner >p {
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 30px;
+}
